@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://tile.openstreetmap.org; connect-src 'self' https://overpass-api.de https://tile.openstreetmap.org; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Lipa Tourism – Batangas</title>
+<meta name="description" content="Offline-ready guide to spots, food and stays in Lipa, Batangas.">
+<meta name="theme-color" content="#0B3A5B">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Lipa Go">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lipa Tourism – Batangas">
+<meta property="og:description" content="Spots, lomi houses and hotels in Lipa. Works offline.">
+<meta property="og:url" content="https://esp046-cyber.github.io/batangastour/">
+<meta property="og:image" content="https://esp046-cyber.github.io/batangastour/og-image.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://esp046-cyber.github.io/batangastour/og-image.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="offline-banner" role="status" hidden>You are offline. Saved places and visited map areas still work.</div>
+<header class="top"><div><h1>Lipa Tourism</h1><p class="tagline">Kapeng barako country</p></div><button id="hud-toggle" aria-pressed="false">HUD</button></header>
+<main>
+  <section id="tab-explore" class="tab active" aria-label="Explore">
+    <div class="filters" id="filters"></div>
+    <ul id="list" class="list"></ul>
+  </section>
+  <section id="tab-map" class="tab" aria-label="Map">
+    <div id="map"></div>
+    <div id="hud" hidden></div>
+    <button id="locate" class="fab">Track me</button>
+  </section>
+  <section id="tab-itinerary" class="tab" aria-label="Itinerary">
+    <h2>Your itinerary</h2><ol id="plan" class="list"></ol>
+  </section>
+  <section id="tab-status" class="tab" aria-label="Offline Status">
+    <h2>Offline status</h2><p class="unv">Map and place data: &copy; OpenStreetMap contributors (ODbL).</p><div id="status"></div>
+    <button id="cache-map" class="btn">Save map area around Lipa</button> <button id="osm-sync" class="btn alt">Sync more places from OpenStreetMap</button>
+  </section>
+</main>
+<nav class="tabs" role="tablist">
+  <button role="tab" data-tab="explore" aria-selected="true">Explore</button>
+  <button role="tab" data-tab="map" aria-selected="false">Map</button>
+  <button role="tab" data-tab="itinerary" aria-selected="false">Itinerary</button>
+  <button role="tab" data-tab="status" aria-selected="false">Offline Status</button>
+</nav>
+<script src="db.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>
