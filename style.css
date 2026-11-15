@@ -4,19 +4,19 @@
   --earth-900:#211713;--earth-700:#3B2B24;--earth-500:#6E5043;--ash:#C9BBAE;
   --sun-300:#FFD27A;--sun-500:#FF9E3D;--sun-600:#F0742B;--ember:#D84A3A;
   --ink:#F8F2EA;--mute:#D3C6BA;
-  --glass:rgba(255,255,255,.09);--glass-brd:rgba(255,255,255,.2);--blur:blur(14px) saturate(140%);
+  --glass:rgba(6,38,61,.62);--glass-brd:rgba(255,255,255,.24);--blur:blur(14px) saturate(140%);
   --r:clamp(14px,1.2vw+10px,22px);--gap:clamp(.6rem,1vw+.4rem,1.1rem);
-  --fs-0:clamp(.95rem,.9rem + .25vw,1.1rem);--fs-1:clamp(1.05rem,1rem + .4vw,1.3rem);--fs-2:clamp(1.4rem,1.1rem + 1.4vw,2.2rem);
+  --fs-0:clamp(1rem,.95rem + .3vw,1.15rem);--fs-1:clamp(1.125rem,1.05rem + .45vw,1.4rem);--fs-2:clamp(1.5rem,1.15rem + 1.5vw,2.4rem);
   --ease:cubic-bezier(.2,.8,.2,1)}
 *{box-sizing:border-box}html,body{height:100%;margin:0}
-body{font:var(--fs-0)/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);display:flex;flex-direction:column;padding-top:env(safe-area-inset-top);
-  background:radial-gradient(120% 70% at 50% -10%,rgba(255,158,61,.32),transparent 62%),linear-gradient(180deg,var(--taal-700),var(--taal-900) 55%,var(--earth-900))}
+body{font:var(--fs-0)/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);display:flex;flex-direction:column;padding-top:env(safe-area-inset-top);
+  background:radial-gradient(120% 70% at 50% -10%,rgba(255,158,61,.26),transparent 62%),linear-gradient(180deg,var(--taal-700),var(--taal-900) 55%,var(--earth-900))}
 button{font:inherit;min-height:44px;cursor:pointer;transition:transform .16s var(--ease),background-color .16s,box-shadow .16s}
 button:active{transform:scale(.97)}
 :focus-visible{outline:3px solid var(--sun-300);outline-offset:2px}
 .top{display:flex;justify-content:space-between;align-items:center;padding:var(--gap) calc(var(--gap)*1.4)}
-h1{font-size:var(--fs-2);margin:0;letter-spacing:-.02em;line-height:1.1}h2{font-size:var(--fs-1);margin:.2rem 0 1rem}
-.tagline{margin:.1rem 0 0;color:var(--sun-300);font-size:.85em}
+h1{font-size:var(--fs-2);margin:0;letter-spacing:-.02em;line-height:1.15;text-wrap:balance}h2{font-size:var(--fs-1);margin:.2rem 0 1rem}
+.tagline{margin:.1rem 0 0;color:var(--sun-300);font-size:.9em}
 #hud-toggle{border:2px solid var(--sun-300);background:transparent;color:var(--sun-300);border-radius:99px;padding:0 1.3em;font-weight:700}
 #hud-toggle[aria-pressed=true]{background:var(--sun-500);border-color:var(--sun-500);color:var(--earth-900);box-shadow:0 0 0 4px rgba(255,158,61,.28)}
 main{flex:1;position:relative;overflow:hidden}
@@ -32,18 +32,47 @@ main{flex:1;position:relative;overflow:hidden}
 @supports not (backdrop-filter:blur(1px)){.item,.chip,.tabs{background:rgba(33,23,19,.88)}}
 .item img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:calc(var(--r) - 6px);margin-bottom:.6rem}
 .item h3{margin:.45rem 0 .2rem;font-size:var(--fs-1)}.item p{margin:.25rem 0;color:var(--mute)}
-.tag{display:inline-block;font-size:.8em;padding:.1em .8em;border-radius:99px;background:var(--taal-500);color:#fff;margin-right:.4rem}
-.unv{color:var(--sun-300);font-size:.8em}
+.tag{display:inline-block;font-size:.875em;padding:.12em .8em;border-radius:99px;background:var(--taal-500);color:#fff;margin-right:.4rem}
+.unv{color:var(--sun-300);font-size:.875em}
 .row{display:flex;gap:.5rem;margin-top:.6rem;flex-wrap:wrap}
 .btn{background:var(--sun-500);color:var(--earth-900);border:0;border-radius:12px;padding:0 1.1em;font-weight:700}
 .btn:hover{background:var(--sun-300)}
 .btn.alt{background:transparent;color:var(--ink);border:1.5px solid var(--glass-brd)}.btn.alt:hover{background:var(--glass)}
 .fab{position:absolute;right:12px;bottom:12px;z-index:500;border:0;border-radius:99px;padding:0 1.4em;background:var(--sun-500);color:var(--earth-900);font-weight:700;box-shadow:0 6px 20px rgba(0,0,0,.4)}
-#hud{position:absolute;left:12px;right:12px;top:12px;z-index:500;background:rgba(6,38,61,.78);-webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur);border:1px solid var(--glass-brd);color:var(--ink);border-radius:var(--r);padding:.8rem 1.1rem;font-variant-numeric:tabular-nums}
+#hud{position:absolute;left:12px;right:12px;top:12px;z-index:500;background:rgba(6,38,61,.92);-webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur);border:1px solid var(--glass-brd);color:var(--ink);border-radius:var(--r);padding:.8rem 1.1rem;font-variant-numeric:tabular-nums}
 #hud b{font-size:var(--fs-2);display:block;color:var(--sun-300)}
 #offline-banner{background:var(--sun-300);color:var(--earth-900);padding:.5rem 1rem;font-weight:700}
 .tabs{display:grid;grid-template-columns:repeat(4,1fr);background:var(--glass);-webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur);border-top:1px solid var(--glass-brd);padding-bottom:env(safe-area-inset-bottom)}
-.tabs button{border:0;background:none;color:var(--mute);font-weight:600;padding:.8rem .25rem;font-size:.92em}
+.tabs button{border:0;background:none;color:var(--mute);font-weight:600;padding:.8rem .25rem;font-size:.9375em}
 .tabs button[aria-selected=true]{color:var(--sun-300);box-shadow:inset 0 3px 0 var(--sun-500)}
 .empty{color:var(--mute);padding:1.5rem 0}
+/* Typography: rem-based so user font-size settings scale everything; readable measure; balanced headings */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{font-synthesis:none;hyphens:auto;overflow-wrap:anywhere}
+.item p,.tab>p{max-width:68ch;text-wrap:pretty}h2,h3{text-wrap:balance}
+/* Micro-interactions */
+.btn,.chip,.tabs button,#hud-toggle,.fab{position:relative;overflow:hidden}.fab{position:absolute}
+.rip::after{content:"";position:absolute;left:var(--x);top:var(--y);width:10px;height:10px;margin:-5px;border-radius:50%;background:currentColor;opacity:.28;pointer-events:none;animation:ripple .55s var(--ease) forwards}
+@keyframes ripple{to{transform:scale(28);opacity:0}}
+@keyframes pop{50%{transform:scale(1.07)}}
+.chip[aria-pressed=true],.btn.on{animation:pop .28s var(--ease)}
+.btn.on{background:var(--taal-300);color:var(--taal-900)}.btn.on:hover{background:var(--ink)}
+.btn[aria-busy=true]{opacity:.7;pointer-events:none}
+.tab:focus{outline:none}
+/* Page transitions (View Transitions API). Falls back to the opacity/slide above. */
+html.vt .tab{transition:none}
+main{view-transition-name:panel}
+::view-transition-old(root),::view-transition-new(root){animation:none}
+::view-transition-old(panel){animation:vt-out .22s var(--ease) both}
+::view-transition-new(panel){animation:vt-in .32s var(--ease) both}
+html[data-dir=back]::view-transition-old(panel){animation-name:vt-out-b}
+html[data-dir=back]::view-transition-new(panel){animation-name:vt-in-b}
+@keyframes vt-out{to{opacity:0;transform:translateX(-24px)}}
+@keyframes vt-in{from{opacity:0;transform:translateX(24px)}}
+@keyframes vt-out-b{to{opacity:0;transform:translateX(24px)}}
+@keyframes vt-in-b{from{opacity:0;transform:translateX(-24px)}}
+/* Accessibility modes */
+@media(prefers-contrast:more){:root{--glass:rgba(0,0,0,.9);--glass-brd:#fff;--mute:#fff;--ink:#fff}}
+@media(forced-colors:active){.btn,.chip,.item,.tabs,#hud{border:1px solid CanvasText}.tabs button[aria-selected=true]{text-decoration:underline}}
+@media(prefers-reduced-motion:reduce){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}

@@ -37,6 +37,9 @@ The service worker also refreshes `locations.json` in the background when a conn
 3. While offline tap **Report issue**; Offline Status shows "Queued actions: 1". Untick Offline; it flushes (needs the endpoint).
 4. Backup test: Application > Storage > clear Local storage, reload offline; plan and places restore from IndexedDB.
 
+## Motion and accessibility
+Tab changes use the View Transitions API (directional slide, falls back to a fade where unsupported). Buttons have press, ripple, toggle "pop" and haptic feedback. All motion is off when the device asks for reduced motion. Type is rem-based (respects the user's browser font size), scales fluidly with `clamp()`, keeps lines under 68 characters, and meets WCAG AAA contrast for body text (checked against the lightest background area). `prefers-contrast: more` and forced-colors modes are supported.
+
 ## Performance budget
 First load (HTML, CSS, JS, JSON) must stay under 100 KB gzip: run `python3 tools/check-budget.py`. Currently about 19 KB. Leaflet (~45 KB) is code-split and loads only on the Map tab. Measure with Lighthouse using "Slow 4G/3G" throttling; the 2-second target is for first visit, repeat visits are served by the service worker.
 

@@ -47,10 +47,14 @@ const Store={places:[],plan:[],
   toggle(id){const i=this.plan.indexOf(id);i<0?this.plan.push(id):this.plan.splice(i,1);this.save();Explore.render();Itinerary.render()},
   get(id){return this.places.find(p=>p.id===id)}};
 
-const Tabs={init(){document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>this.go(b.dataset.tab))},
-  go(n){document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.id==='tab-'+n));
-    document.querySelectorAll('[data-tab]').forEach(b=>b.setAttribute('aria-selected',b.dataset.tab===n));
-    if(n==='map')MapView.load().then(()=>MapView.ensure())}};
+const Tabs={order:['explore','map','itinerary','status'],cur:'explore',
+  init(){document.documentElement.classList.toggle('vt',!!document.startViewTransition);document.querySelectorAll('.tab').forEach(t=>t.tabIndex=-1);document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>this.go(b.dataset.tab))},
+  go(n){const apply=()=>{document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.id==='tab-'+n));
+      document.querySelectorAll('[data-tab]').forEach(b=>b.setAttribute('aria-selected',b.dataset.tab===n));
+      const p=$('#tab-'+n);if(p&&n!==this.cur)p.focus({preventScroll:true});this.cur=n};
+    const dir=this.order.indexOf(n)<this.order.indexOf(this.cur)?'back':'fwd';
+    if(n!==this.cur&&document.startViewTransition&&!matchMedia('(prefers-reduced-motion:reduce)').matches){document.documentElement.dataset.dir=dir;document.startViewTransition(apply)}else apply();
+    if(n==='map')MapView.load().then(()=>setTimeout(()=>MapView.ensure(),60))}};
 
 const Explore={cat:'All',
   render(){const cats=['All',...new Set(Store.places.map(p=>p.category))];
@@ -80,14 +84,15 @@ const Status={async render(){let n=0,q=0;try{q=(await DB.all()).length}catch(e){
 
 async function boot(){
   await Store.load();Tabs.init();Explore.render();Itinerary.render();Status.render();
+  document.addEventListener('pointerdown',e=>{const b=e.target.closest('.btn,.chip,.tabs button,.fab,#hud-toggle');if(!b)return;const r=b.getBoundingClientRect();b.style.setProperty('--x',(e.clientX-r.left)+'px');b.style.setProperty('--y',(e.clientY-r.top)+'px');b.classList.remove('rip');void b.offsetWidth;b.classList.add('rip');if(navigator.vibrate)navigator.vibrate(8)},{passive:true});
   $('#hud-toggle').onclick=()=>MapView.load().then(()=>MapView.toggleHud());$('#locate').onclick=()=>MapView.load().then(()=>MapView.track());
   $('#list').addEventListener('click',e=>{const b=e.target.closest('[data-rep]');if(!b)return;const n=prompt('What is wrong with this place?');if(n)Outbox.report(+b.dataset.rep,n)});
   $('#cache-map').onclick=async()=>{await MapView.load();MapView.ensure();const sw=navigator.serviceWorker.controller;if(!sw)return alert('Reload once so the service worker can take control.');
     sw.postMessage({type:'CACHE_TILES',urls:MapView.tileUrls()});$('#cache-map').textContent='Saving…'};
-  $('#osm-sync').onclick=async()=>{const b=$('#osm-sync');b.textContent='Syncing…';
+  $('#osm-sync').onclick=async()=>{const b=$('#osm-sync');b.textContent='Syncing…';b.setAttribute('aria-busy','true');
     try{const r=await OSM.sync();Explore.render();if(MapView.map)Store.places.forEach(p=>{if(!MapView.markers[p.id])MapView.markers[p.id]=L.marker([p.latitude,p.longitude]).addTo(MapView.map).bindPopup('<b>'+esc(p.name)+'</b><br>'+esc(p.category))});
       Status.render();alert('OpenStreetMap had '+r.found+' named places. Added '+r.added+'. Total now '+r.total+' (max '+OSM.LIMIT+').')}
-    catch(e){alert('Sync failed. Go online and try again. '+e.message)}b.textContent='Sync more places from OpenStreetMap'};
+    catch(e){alert('Sync failed. Go online and try again. '+e.message)}b.textContent='Sync more places from OpenStreetMap';b.removeAttribute('aria-busy')};
   addEventListener('online',()=>{Status.render();DB.flush().catch(()=>{})});addEventListener('offline',()=>Status.render());
   if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').then(()=>navigator.serviceWorker.ready).then(r=>r.sync&&r.sync.register('refresh-data')).catch(e=>console.warn('SW',e));
     navigator.serviceWorker.addEventListener('message',e=>{if(e.data.type==='TILES_DONE'){$('#cache-map').textContent='Save map area around Lipa';Status.render();alert('Saved '+e.data.count+' map tiles.')}})}

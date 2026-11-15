@@ -5,7 +5,7 @@
  * 4. DevTools > Application > Service Workers > "Update on reload" while developing.
  */
 importScripts('db.js');
-const VERSION='v8',SHELL='shell-'+VERSION,RUNTIME='runtime-'+VERSION;
+const VERSION='v9',SHELL='shell-'+VERSION,RUNTIME='runtime-'+VERSION;
 const ASSETS=['./','index.html','style.css','app.js','db.js','map.js','manifest.webmanifest','data/locations.json','vendor/leaflet.js','vendor/leaflet.css','vendor/images/marker-icon.png','vendor/images/marker-icon-2x.png','vendor/images/marker-shadow.png','vendor/images/layers.png','icons/icon-192.png','icons/icon-512.png','og-image.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(SHELL).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(n=>![SHELL,RUNTIME].includes(n)).map(n=>caches.delete(n)))).then(()=>self.clients.claim()))});
