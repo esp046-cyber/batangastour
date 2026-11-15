@@ -1,0 +1,1767 @@
+[
+ {
+  "id": 1,
+  "name": "Metropolitan Cathedral of San Sebastian",
+  "category": "Tourist Spots",
+  "latitude": 13.940871,
+  "longitude": 121.163487,
+  "description": "Historic cathedral of the Archdiocese of Lipa and the city's best-known landmark. Known for its architecture and the relic of San Sebastian; open daily with parking.",
+  "address": "C.M. Recto Ave, G. Solis St, Lipa City",
+  "contact": "+63 43 756 2142",
+  "features": [
+   "Historic",
+   "Free entry",
+   "Open 5AM-7PM"
+  ],
+  "verified": true
+ },
+ {
+  "id": 2,
+  "name": "Casa de Segunda",
+  "category": "Tourist Spots",
+  "latitude": 13.938948,
+  "longitude": 121.161784,
+  "description": "Heritage house tied to Segunda Katigbak and her link to Jose Rizal. Preserved furniture and artifacts; reports mention a PHP 100 entrance fee, and some visits may need a doorbell ring.",
+  "address": "113 Rizal St, Lipa City",
+  "contact": "+63 43 784 1952",
+  "features": [
+   "Heritage house",
+   "Open 8AM-5PM",
+   "Entrance fee"
+  ],
+  "verified": true
+ },
+ {
+  "id": 3,
+  "name": "Museo de Lipa",
+  "category": "Tourist Spots",
+  "latitude": 13.940999,
+  "longitude": 121.164572,
+  "description": "Small city museum next to the Lipa City Public Library, a short walk from the cathedral. Exhibits focus on local history including WWII; tours may be by appointment.",
+  "address": "L. Katigbak St, Lipa City Public Library, Lipa City",
+  "contact": "+63 43 741 0458",
+  "features": [
+   "Museum",
+   "Weekdays 9AM-5PM",
+   "By appointment"
+  ],
+  "verified": true
+ },
+ {
+  "id": 4,
+  "name": "Lipa City Community Park",
+  "category": "Tourist Spots",
+  "latitude": 13.93576,
+  "longitude": 121.161374,
+  "description": "Large public park with a jogging path, sports courts, skate area, playground and a cafe. Check current opening hours as some areas have been under renovation.",
+  "address": "10 Ayala Hwy, Lipa City",
+  "contact": "",
+  "features": [
+   "Park",
+   "Jogging",
+   "Playground"
+  ],
+  "verified": true
+ },
+ {
+  "id": 5,
+  "name": "Claro M. Recto Memorial Marker",
+  "category": "Tourist Spots",
+  "latitude": 13.940471,
+  "longitude": 121.159842,
+  "description": "Memorial marker honoring statesman Claro M. Recto, who was born in Lipa. A quick roadside stop for history fans.",
+  "address": "C.M. Recto Ave, Lipa City",
+  "contact": "",
+  "features": [
+   "Landmark",
+   "Free"
+  ],
+  "verified": true
+ },
+ {
+  "id": 6,
+  "name": "Mount Malarayat (approximate pin)",
+  "category": "Tourist Spots",
+  "latitude": 13.95,
+  "longitude": 121.09,
+  "description": "Mountain range west of Lipa with hiking and scenic views. This pin is NOT verified: choose a specific trailhead or resort before relying on it.",
+  "address": "Malarayat, Lipa City",
+  "contact": "",
+  "features": [
+   "Hiking",
+   "Scenic view"
+  ],
+  "verified": false
+ },
+ {
+  "id": 7,
+  "name": "Shatras Lomi House",
+  "category": "Restaurants",
+  "latitude": 13.955249,
+  "longitude": 121.159915,
+  "description": "Open 24 hours near SM City Lipa; reviewers praise the chicken lomi and the sweet-spicy chami. Canteen-style service at budget prices.",
+  "address": "347 Balintawak Road, Lipa City",
+  "contact": "",
+  "features": [
+   "Lomi",
+   "Chami",
+   "24 hours",
+   "Budget"
+  ],
+  "verified": true
+ },
+ {
+  "id": 8,
+  "name": "Rose Lomi House",
+  "category": "Restaurants",
+  "latitude": 13.943529,
+  "longitude": 121.127721,
+  "description": "Long-running roadside lomi stop serving Batangas lomi and chami at low prices. Open 24 hours; no dedicated parking, so park along the highway.",
+  "address": "Lipa City (Tambo side)",
+  "contact": "+63 995 645 2691",
+  "features": [
+   "Lomi",
+   "24 hours",
+   "Budget"
+  ],
+  "verified": true
+ },
+ {
+  "id": 9,
+  "name": "Kwatogs Lipa Lomi House (Inosluban)",
+  "category": "Restaurants",
+  "latitude": 13.980925,
+  "longitude": 121.167702,
+  "description": "Popular lomi and chami house with a large menu of silogs and fried chicken. Open 24 hours; parking is limited along a busy road.",
+  "address": "Purok 3, Inosluban, Lipa City",
+  "contact": "+63 995 893 5566",
+  "features": [
+   "Lomi",
+   "24 hours",
+   "Budget"
+  ],
+  "verified": true
+ },
+ {
+  "id": 10,
+  "name": "2.0 by Lomi King",
+  "category": "Restaurants",
+  "latitude": 13.940746,
+  "longitude": 121.143598,
+  "description": "Lomi house in Tambo with generous shareable bowls plus homemade siopao and dimsum. Open about 10AM-8:30PM.",
+  "address": "Purok 4, Tambo, Lipa City",
+  "contact": "+63 917 166 6369",
+  "features": [
+   "Lomi",
+   "Siopao",
+   "Dimsum"
+  ],
+  "verified": true
+ },
+ {
+  "id": 11,
+  "name": "Kanto by LBN",
+  "category": "Restaurants",
+  "latitude": 13.948093,
+  "longitude": 121.173505,
+  "description": "Filipino comfort food restaurant with lomi, grilled dishes and noodles. Guests are reportedly served free kapeng barako.",
+  "address": "P.D.P. Laygo St, Sabang, Lipa City",
+  "contact": "",
+  "features": [
+   "Filipino",
+   "Lomi",
+   "Barako coffee"
+  ],
+  "verified": true
+ },
+ {
+  "id": 12,
+  "name": "Cafe de Lipa - San Carlos Drive",
+  "category": "Restaurants",
+  "latitude": 13.945964,
+  "longitude": 121.152485,
+  "description": "Local coffee brand serving Batangas barako and beans to take home. Open about 7AM to midnight, with outlets, Wi-Fi and parking.",
+  "address": "032 San Carlos Drive, Lipa City",
+  "contact": "+63 43 756 1716",
+  "features": [
+   "Coffee",
+   "Wi-Fi",
+   "Parking",
+   "Open to midnight"
+  ],
+  "verified": true
+ },
+ {
+  "id": 13,
+  "name": "Cafe de Lipa - Star Toll",
+  "category": "Restaurants",
+  "latitude": 13.960316,
+  "longitude": 121.146361,
+  "description": "Branch near the Lipa STAR Toll Petron stop, handy for coffee and take-out beans. Open about 8AM-8:30PM.",
+  "address": "Near Petron Lipa Star Toll, Lipa City",
+  "contact": "+63 995 132 4755",
+  "features": [
+   "Coffee",
+   "Roadside stop"
+  ],
+  "verified": true
+ },
+ {
+  "id": 14,
+  "name": "Cafe de Lipa - The Outlets, LIMA",
+  "category": "Restaurants",
+  "latitude": 14.008587,
+  "longitude": 121.169681,
+  "description": "Spacious branch inside The Outlets at LIMA Technology Center, using Batangas beans. Open about 10AM-9PM; GCash accepted.",
+  "address": "The Outlets, LIMA Technology Center, Lipa City",
+  "contact": "",
+  "features": [
+   "Coffee",
+   "Smoking area",
+   "GCash"
+  ],
+  "verified": true
+ },
+ {
+  "id": 15,
+  "name": "Jet Hotel Lipa City",
+  "category": "Hotels",
+  "latitude": 13.941963,
+  "longitude": 121.15184,
+  "description": "City hotel with a rooftop pool and breakfast, close to malls and restaurants. Guests praise friendly staff and clean rooms.",
+  "address": "Lipa City (W5R2+VP8)",
+  "contact": "+63 995 637 8426",
+  "features": [
+   "Rooftop pool",
+   "Breakfast",
+   "City center"
+  ],
+  "verified": true
+ },
+ {
+  "id": 16,
+  "name": "Joane Suites by Hotel Cara",
+  "category": "Hotels",
+  "latitude": 13.942668,
+  "longitude": 121.137333,
+  "description": "Newly furnished hotel on Tambo Avenue with a quiet setting and smart TVs. Guests mention free water and coffee.",
+  "address": "Tambo Avenue, Lipa City",
+  "contact": "",
+  "features": [
+   "Quiet",
+   "Smart TV",
+   "Free coffee"
+  ],
+  "verified": true
+ },
+ {
+  "id": 17,
+  "name": "Lipa Bed & Breakfast",
+  "category": "Hotels",
+  "latitude": 13.94756,
+  "longitude": 121.155922,
+  "description": "Budget lodging on Ayala Highway, open 24 hours, with food included in some stays. Reviews are mixed (about 3.5/5), so read recent reviews first.",
+  "address": "Ayala Hwy, Lipa City",
+  "contact": "+63 917 563 5374",
+  "features": [
+   "Budget",
+   "24 hours"
+  ],
+  "verified": true
+ },
+ {
+  "id": 18,
+  "name": "Alegre Building Lipa",
+  "category": "Hotels",
+  "latitude": 13.936695,
+  "longitude": 121.164513,
+  "description": "Small inn and apartment-style stay near the city proper, on P. Torres Street.",
+  "address": "187 P. Torres St, Lipa City",
+  "contact": "+63 915 802 2814",
+  "features": [
+   "Inn",
+   "Near city proper"
+  ],
+  "verified": true
+ },
+ {
+  "id": 19,
+  "name": "Third Hour Cafe",
+  "category": "Restaurants",
+  "latitude": 13.941303,
+  "longitude": 121.148295,
+  "description": "Coffee shop known for its sea salt latte and house-baked cookies and brownies.",
+  "address": "Purok 4, Mataas na Lupa, Lipa City, Batangas",
+  "contact": "+63 965 556 4676",
+  "features": [
+   "Coffee",
+   "Pastries"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 20,
+  "name": "What if. - kwento at kape",
+  "category": "Restaurants",
+  "latitude": 13.941765,
+  "longitude": 121.162692,
+  "description": "Cozy, budget-friendly cafe with rice meals, drinks and cheap desserts; popular with students. Wi-Fi by voucher.",
+  "address": "J.M. Kalaw St, Poblacion Cinco, Lipa City, Batangas",
+  "contact": "+63 43 778 4313",
+  "features": [
+   "Coffee",
+   "Budget",
+   "Wi-Fi"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 21,
+  "name": "Krav Cafe",
+  "category": "Restaurants",
+  "latitude": 13.927769,
+  "longitude": 121.169837,
+  "description": "Spacious cafe with pasta, French toast with free barako and fast Wi-Fi, plus parking.",
+  "address": "DLD Town Center, Antipolo del Norte, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Coffee",
+   "Wi-Fi",
+   "Parking"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 22,
+  "name": "Drews Brews - Lipa",
+  "category": "Restaurants",
+  "latitude": 13.940009,
+  "longitude": 121.162278,
+  "description": "Late-night coffee and frappe shop in the city proper, open until about 3AM.",
+  "address": "E. Mayo St, G. Solis St, Lipa City, Batangas",
+  "contact": "+63 992 300 8087",
+  "features": [
+   "Coffee",
+   "Late night"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 23,
+  "name": "Cafe 106",
+  "category": "Restaurants",
+  "latitude": 13.939553,
+  "longitude": 121.156804,
+  "description": "Cozy cafe praised for matcha and seasalt latte; open noon to midnight with parking.",
+  "address": "MK Lina St, Arcadia de Lipa, Poblacion 1",
+  "contact": "+63 917 823 7688",
+  "features": [
+   "Coffee",
+   "Matcha",
+   "Parking"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 24,
+  "name": "Hapag Filipino Restaurant",
+  "category": "Restaurants",
+  "latitude": 13.950938,
+  "longitude": 121.165586,
+  "description": "Sit-down Filipino restaurant known for bulalo, pansit and lechon kawali. Has parking and function rooms.",
+  "address": "Gen. Luna St, Lipa City",
+  "contact": "+63 43 756 1214",
+  "features": [
+   "Filipino",
+   "Bulalo",
+   "Parking"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 25,
+  "name": "Lipa Grill",
+  "category": "Restaurants",
+  "latitude": 13.935,
+  "longitude": 121.165,
+  "description": "Well-reviewed Filipino grill with unli bulalo soup, ribs and barako affogato; pet friendly. Pin is approximate.",
+  "address": "Lipa City proper (approx. pin)",
+  "contact": "+63 43 756 4660",
+  "features": [
+   "Filipino",
+   "Grill",
+   "Pet friendly"
+  ],
+  "verified": false,
+  "source": "places"
+ },
+ {
+  "id": 26,
+  "name": "Vicente's Bahay Kainan",
+  "category": "Restaurants",
+  "latitude": 13.928495,
+  "longitude": 121.11361,
+  "description": "Three-storey eatery with budget Batangas dishes: lomi, chami, crispy kare-kare and morcon. Closed Mondays.",
+  "address": "Bulati Ave, Lipa City",
+  "contact": "+63 945 715 6589",
+  "features": [
+   "Lomi",
+   "Kare-kare",
+   "Parking"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 27,
+  "name": "Publiko Kitchen Cafe",
+  "category": "Restaurants",
+  "latitude": 13.950438,
+  "longitude": 121.158387,
+  "description": "Meat-heavy Filipino menu with pares, gambas and sisig; open late until about 1AM.",
+  "address": "Pres. Laurel Hwy, Balintawak, Lipa City, Batangas",
+  "contact": "+63 967 258 8200",
+  "features": [
+   "Filipino",
+   "Late night"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 28,
+  "name": "Butch Seafood & Grill",
+  "category": "Restaurants",
+  "latitude": 13.944479,
+  "longitude": 121.132633,
+  "description": "Family restaurant with large servings of sinigang, crispy kare-kare and grilled dishes. Parking at the back.",
+  "address": "Pres. Laurel Hwy, Lipa City",
+  "contact": "+63 968 309 3180",
+  "features": [
+   "Seafood",
+   "Grill",
+   "Parking"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 29,
+  "name": "Stop Over Seafood and Grill",
+  "category": "Restaurants",
+  "latitude": 13.977511,
+  "longitude": 121.200513,
+  "description": "Garden-style turo-turo with home-cooked Filipino food and strong barako coffee.",
+  "address": "Lipa-Alaminos Rd",
+  "contact": "+63 906 563 7477",
+  "features": [
+   "Filipino",
+   "Garden"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 30,
+  "name": "Arthur's BBQ",
+  "category": "Restaurants",
+  "latitude": 13.964662,
+  "longitude": 121.164261,
+  "description": "Popular ihaw-ihaw with spiced vinegar. Limited parking; closed Mondays.",
+  "address": "Villa de Lipa",
+  "contact": "+63 918 628 0671",
+  "features": [
+   "Grill",
+   "Budget"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 31,
+  "name": "Grillaz BBQ",
+  "category": "Restaurants",
+  "latitude": 13.942726,
+  "longitude": 121.121397,
+  "description": "Evening barbecue stop, open 4PM to midnight. Few reviews so far.",
+  "address": "Banaybanay, Lipa City",
+  "contact": "+63 945 542 7504",
+  "features": [
+   "Grill",
+   "Evening"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 32,
+  "name": "Sucree Bakery & Cafe",
+  "category": "Restaurants",
+  "latitude": 13.941731,
+  "longitude": 121.149788,
+  "description": "Bakery cafe praised for matcha, pastries and cakes, with wall outlets.",
+  "address": "Parkway Square, Mataas na Lupa, Lipa City, Batangas",
+  "contact": "+63 956 715 5695",
+  "features": [
+   "Bakery",
+   "Matcha",
+   "Outlets"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 33,
+  "name": "Pink Patisserie",
+  "category": "Restaurants",
+  "latitude": 13.940787,
+  "longitude": 121.127347,
+  "description": "Pink French-style dessert cafe with macarons, jelly cakes and cheesecakes. Closed Mondays.",
+  "address": "Base View Commercial Area, Sico, Lipa City, Batangas",
+  "contact": "+63 945 411 1959",
+  "features": [
+   "Desserts",
+   "Macarons"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 34,
+  "name": "Freya Studio Cafe and Bakery",
+  "category": "Restaurants",
+  "latitude": 13.96533,
+  "longitude": 121.165897,
+  "description": "Cafe with house-made pasta, pizza and espresso. Closed Tuesdays.",
+  "address": "Pres. Laurel Hwy, Marauoy, Lipa City, Batangas",
+  "contact": "+63 923 088 3180",
+  "features": [
+   "Cafe",
+   "Pasta",
+   "Pizza"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 35,
+  "name": "Masato Kaiteki Bakehouse",
+  "category": "Restaurants",
+  "latitude": 14.007666,
+  "longitude": 121.169677,
+  "description": "Japanese-style bakery with a big pastry range, custard pie and matcha sakura drinks.",
+  "address": "The Outlets at LIMA Estate, Lipa City, Batangas",
+  "contact": "+63 969 275 4212",
+  "features": [
+   "Bakery",
+   "Japanese"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 36,
+  "name": "Batangas Coffee, Grains & Pasalubong Center",
+  "category": "Restaurants",
+  "latitude": 13.940453,
+  "longitude": 121.160384,
+  "description": "Roastery shop for Batangas barako, arabica and robusta beans at low prices. Mostly coffee, little else.",
+  "address": "MK Lina St, Agring Agree Mart Bldg, Lipa City, Batangas",
+  "contact": "+63 917 310 5929",
+  "features": [
+   "Coffee beans",
+   "Pasalubong"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 37,
+  "name": "Q-Pearl Coffee, Choco N' Pasalubong",
+  "category": "Restaurants",
+  "latitude": 13.94599,
+  "longitude": 121.155459,
+  "description": "Pasalubong counter with coffee, chocolate and local treats. Open 8AM-7PM.",
+  "address": "Ayala Hwy, Lipa City",
+  "contact": "+63 922 802 0217",
+  "features": [
+   "Pasalubong",
+   "Coffee"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 38,
+  "name": "Kape at Kakao ng Batangas",
+  "category": "Restaurants",
+  "latitude": 13.944658,
+  "longitude": 121.160565,
+  "description": "Family-run roaster selling Batangas coffee beans. Closed Sundays.",
+  "address": "Near Lipa Public Market",
+  "contact": "+63 43 702 1585",
+  "features": [
+   "Coffee beans",
+   "Roaster"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 39,
+  "name": "Mercado de Lipa",
+  "category": "Restaurants",
+  "latitude": 13.938638,
+  "longitude": 121.152949,
+  "description": "Evening food and bar market with stalls, barbecue and live music.",
+  "address": "Lipa City (W5Q3+F54)",
+  "contact": "+63 977 651 6859",
+  "features": [
+   "Street food",
+   "Evening"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 40,
+  "name": "The White Villa in Lipa",
+  "category": "Hotels",
+  "latitude": 13.972941,
+  "longitude": 121.171195,
+  "description": "Private villa-style stay with complimentary toiletries, coffee and hair dryers. Few reviews.",
+  "address": "Terada Avenue, Lipa City",
+  "contact": "+63 952 480 4542",
+  "features": [
+   "Villa",
+   "Amenities"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 41,
+  "name": "La Vida Resort and Events Center",
+  "category": "Hotels",
+  "latitude": 13.936116,
+  "longitude": 121.149926,
+  "description": "Resort with a large pool, big parking area and event halls. Reviewers note noise during events.",
+  "address": "Purok 1, Lodlod, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Pool",
+   "Events",
+   "Parking"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 42,
+  "name": "LIKHA - Bolbok",
+  "category": "Hotels",
+  "latitude": 13.914245,
+  "longitude": 121.149784,
+  "description": "Small lodging in Bolbok; few reviews, check recent ones.",
+  "address": "Purok 8, Bolbok, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Lodging"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 43,
+  "name": "Anahaw Farm & Resort",
+  "category": "Hotels",
+  "latitude": 13.962448,
+  "longitude": 121.204373,
+  "description": "Quiet farm resort with gardens and fresh Filipino food; book food ahead. Reached by a winding road.",
+  "address": "Sitio Catmon, San Isidro, Lipa City, Batangas",
+  "contact": "+63 2 8809 3531",
+  "features": [
+   "Farm resort",
+   "Garden"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 44,
+  "name": "Dulli Transient House",
+  "category": "Hotels",
+  "latitude": 13.949519,
+  "longitude": 121.158906,
+  "description": "Quiet transient house near SM City Lipa and the public market, with secure parking.",
+  "address": "Homes Subdivision, T.M. Kalaw St, Lipa City, Batangas",
+  "contact": "+63 927 400 0400",
+  "features": [
+   "Parking",
+   "Quiet"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 45,
+  "name": "Nourish Farm",
+  "category": "Tourist Spots",
+  "latitude": 13.889978,
+  "longitude": 121.166524,
+  "description": "Eco-farm with glamping domes, petting zoo, archery and garden for groups.",
+  "address": "Pagolingin Bata, Lipa City",
+  "contact": "+63 916 421 4507",
+  "features": [
+   "Glamping",
+   "Farm"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 46,
+  "name": "Tagbakin Nature Park",
+  "category": "Tourist Spots",
+  "latitude": 13.949402,
+  "longitude": 121.070313,
+  "description": "Lakeside park with Taal Lake views and sunsets; small entrance fee reported. Water quality and upkeep reviews are mixed.",
+  "address": "Lipa City (W3XC+Q48)",
+  "contact": "",
+  "features": [
+   "Lake view",
+   "Sunset"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 47,
+  "name": "St. Benedict Monastery",
+  "category": "Tourist Spots",
+  "latitude": 13.926891,
+  "longitude": 121.100351,
+  "description": "Quiet Benedictine monastery church for prayer and reflection, with parking.",
+  "address": "Pulo, P. Ulan, Lipa City, Batangas",
+  "contact": "+63 43 756 0078",
+  "features": [
+   "Church",
+   "Quiet"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 48,
+  "name": "Our Lady of Peace and Good Voyage Parish",
+  "category": "Tourist Spots",
+  "latitude": 13.931082,
+  "longitude": 121.142338,
+  "description": "Newer parish church known for natural light, a large Marian altarpiece and stained glass.",
+  "address": "Lodlod Ave, Lipa City, Batangas",
+  "contact": "+63 935 884 1922",
+  "features": [
+   "Church"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 49,
+  "name": "Shrine and Parish of St. Vincent Ferrer",
+  "category": "Tourist Spots",
+  "latitude": 13.932737,
+  "longitude": 121.113437,
+  "description": "Archdiocesan shrine with ample parking and stalls outside.",
+  "address": "Banay-Banay San Vicente, Lipa City, Batangas",
+  "contact": "+63 43 756 0976",
+  "features": [
+   "Shrine",
+   "Parking"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 50,
+  "name": "Shrine and Parish of St. Anthony of Padua",
+  "category": "Tourist Spots",
+  "latitude": 13.924193,
+  "longitude": 121.148705,
+  "description": "Archdiocesan shrine popular for weddings, with parking. Closed Mondays.",
+  "address": "Bolbok, Lipa City",
+  "contact": "+63 43 756 1625",
+  "features": [
+   "Shrine"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 51,
+  "name": "Mary Mediatrix of All Grace Parish",
+  "category": "Tourist Spots",
+  "latitude": 13.925768,
+  "longitude": 121.171826,
+  "description": "Large, well-kept church on the highway linked to the Marian apparitions story.",
+  "address": "P. Torres St, Lipa City, Batangas",
+  "contact": "+63 43 757 5430",
+  "features": [
+   "Church",
+   "Pilgrimage"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 52,
+  "name": "Lipa City Public Market",
+  "category": "Tourist Spots",
+  "latitude": 13.943464,
+  "longitude": 121.161133,
+  "description": "Wet and dry market with multi-level parking; try the mami and siopao stalls. Open 6AM-6PM.",
+  "address": "E. Mayo St, Lipa City, Batangas",
+  "contact": "+63 43 757 2109",
+  "features": [
+   "Market",
+   "Local food"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 53,
+  "name": "Lipa Town Center",
+  "category": "Tourist Spots",
+  "latitude": 13.943217,
+  "longitude": 121.134542,
+  "description": "Open-air commercial center with restaurants, a supermarket and free parking.",
+  "address": "Pres. Laurel Hwy, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Dining",
+   "Parking"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 54,
+  "name": "The Outlets at LIMA Estate",
+  "category": "Tourist Spots",
+  "latitude": 14.009428,
+  "longitude": 121.168507,
+  "description": "Large outlet mall with events ground, green areas, cafes and a kids' playground. Open 10AM-9PM.",
+  "address": "LIMA Technology Center, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Outlet mall",
+   "Family"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 55,
+  "name": "Izakaya Tago Japanese Restaurant",
+  "category": "Restaurants",
+  "latitude": 13.962666,
+  "longitude": 121.165567,
+  "description": "Well-reviewed Japanese izakaya with ramen, sashimi and tempura; own parking and private rooms.",
+  "address": "Hooga 2021 Bldg, Pres. Laurel Hwy, Marauoy, Lipa City, Batangas",
+  "contact": "+63 991 575 3803",
+  "features": [
+   "Japanese",
+   "Parking"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 56,
+  "name": "Ichirosan Japanese Restaurant (Balete)",
+  "category": "Restaurants",
+  "latitude": 13.975291,
+  "longitude": 121.148152,
+  "description": "Japanese bento, ramen and rolls beside the Balete tollway exit, with plenty of parking.",
+  "address": "Bulacnin, near Balete STAR Toll exit, Lipa City, Batangas",
+  "contact": "+63 956 822 1722",
+  "features": [
+   "Japanese",
+   "Parking"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 57,
+  "name": "Ichirosan (DLD Town Center)",
+  "category": "Restaurants",
+  "latitude": 13.927512,
+  "longitude": 121.170167,
+  "description": "Branch with dragon rolls, ramen and teriyaki plates.",
+  "address": "DLD Town Center, Antipolo del Norte, Lipa City, Batangas",
+  "contact": "+63 995 165 0195",
+  "features": [
+   "Japanese"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 58,
+  "name": "Hiromitsu Lipa",
+  "category": "Restaurants",
+  "latitude": 13.995535,
+  "longitude": 121.167522,
+  "description": "Small ramen and bento shop across from Wilcon; limited parking. Mixed reviews.",
+  "address": "Pres. Laurel Hwy, Inosluban, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Japanese",
+   "Ramen"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 59,
+  "name": "Tessie's Goto & Bulalo (main, since 1980)",
+  "category": "Restaurants",
+  "latitude": 13.950885,
+  "longitude": 121.165863,
+  "description": "Famous carinderia goto with a clear beefy broth; open 6AM-12:30PM and often sells out early.",
+  "address": "Tiaong-Lipa Rd, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Goto",
+   "Budget",
+   "Breakfast"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 60,
+  "name": "Tessie's Goto & Bulalo (Altamirano)",
+  "category": "Restaurants",
+  "latitude": 13.933388,
+  "longitude": 121.151996,
+  "description": "Home-style branch serving goto, bulalo and tapsilog. Inside a subdivision, so use the signage.",
+  "address": "Altamirano, Lipa City, Lipa City, Batangas",
+  "contact": "+63 915 802 8989",
+  "features": [
+   "Goto",
+   "Bulalo"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 61,
+  "name": "Casa Alejandro",
+  "category": "Restaurants",
+  "latitude": 13.940026,
+  "longitude": 121.162765,
+  "description": "Bulalo-focused restaurant in the city proper, good for group gatherings.",
+  "address": "P. Torres St cor. G. Solis St, Lipa City, Batangas",
+  "contact": "+63 991 840 4278",
+  "features": [
+   "Bulalo",
+   "Groups"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 62,
+  "name": "Gotohan sa Barangay",
+  "category": "Restaurants",
+  "latitude": 13.928417,
+  "longitude": 121.168848,
+  "description": "Well-liked goto house open early; limited parking and warm dining area. Closed Sundays.",
+  "address": "Lipa City, Lipa City, Batangas",
+  "contact": "+63 43 312 2616",
+  "features": [
+   "Goto",
+   "Budget"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 63,
+  "name": "Kuya Ding's Lomian at Tapsilogan 24/7",
+  "category": "Restaurants",
+  "latitude": 13.882737,
+  "longitude": 121.166243,
+  "description": "24-hour lomi and tapsilog stop. No reviews yet.",
+  "address": "Lipa City (southern area), Lipa City, Batangas",
+  "contact": "+63 975 406 1021",
+  "features": [
+   "Lomi",
+   "24 hours"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 64,
+  "name": "Sebastian's Lipa",
+  "category": "Restaurants",
+  "latitude": 13.942057,
+  "longitude": 121.168338,
+  "description": "Simple casual spot known for burgers and sisig rice, inside a residential area.",
+  "address": "Braceros, Lipa City, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Burgers",
+   "Filipino"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 65,
+  "name": "RibSarap Lipa",
+  "category": "Restaurants",
+  "latitude": 13.941153,
+  "longitude": 121.14494,
+  "description": "Budget steak and ribs house with parking for about 3 cars; cash or GCash.",
+  "address": "225 Pres. Laurel Hwy, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Steak",
+   "Ribs",
+   "Budget"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 66,
+  "name": "The Beehive",
+  "category": "Restaurants",
+  "latitude": 13.942624,
+  "longitude": 121.137937,
+  "description": "Garden restaurant with big portions, pizza, goats and local honey sold in the afternoons.",
+  "address": "Pres. Laurel Hwy, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Garden",
+   "Honey"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 67,
+  "name": "Frasch",
+  "category": "Restaurants",
+  "latitude": 13.940301,
+  "longitude": 121.127089,
+  "description": "Upscale Italian and Spanish-style restaurant with pasta, pizza and cheesecake. Reviews mention flies.",
+  "address": "Base View Homes commercial area, Sico, Lipa City, Batangas",
+  "contact": "+63 917 128 2288",
+  "features": [
+   "Italian",
+   "Fine dining"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 68,
+  "name": "Deer Claus Steakhouse",
+  "category": "Restaurants",
+  "latitude": 13.950815,
+  "longitude": 121.159724,
+  "description": "Steakhouse and family restaurant; service speed has been reported as slow. Closed Mondays.",
+  "address": "Pres. Laurel Hwy, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Steak",
+   "Pasta"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 69,
+  "name": "Haro-Haro Lipa / Sip Up Coffee",
+  "category": "Restaurants",
+  "latitude": 13.94072,
+  "longitude": 121.159369,
+  "description": "Halo-halo and coffee stop near the market; parking is tight.",
+  "address": "B. Morada Ave, Brgy. 1, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Dessert",
+   "Coffee"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 70,
+  "name": "Anitta Cafe",
+  "category": "Restaurants",
+  "latitude": 13.944557,
+  "longitude": 121.160298,
+  "description": "Small cafe beside the public market with sinigang in gravy, pasta and pastries.",
+  "address": "B. Artemio Katigbak St, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Cafe",
+   "Pastries"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 71,
+  "name": "Matcho Matcha Lipa",
+  "category": "Restaurants",
+  "latitude": 13.940455,
+  "longitude": 121.142812,
+  "description": "Matcha cafe using Kyoto matcha; opens 11AM.",
+  "address": "Pres. Laurel Hwy, Paninsingin, Tambo, Lipa City, Batangas",
+  "contact": "+63 917 153 6515",
+  "features": [
+   "Matcha",
+   "Cafe"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 72,
+  "name": "Lipa City Panciteria",
+  "category": "Restaurants",
+  "latitude": 13.942006,
+  "longitude": 121.160197,
+  "description": "Old-school panciteria often called the origin of Batangas lomi, near the market. Dated interior.",
+  "address": "Kapitan Simeon Luz St, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Lomi",
+   "Historic eatery"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 73,
+  "name": "E&D Transient House",
+  "category": "Hotels",
+  "latitude": 13.928663,
+  "longitude": 121.113975,
+  "description": "Small transient house reviewed as clean and relaxing.",
+  "address": "Bulati Ave, Lipa City, Lipa City, Batangas",
+  "contact": "+63 966 299 2418",
+  "features": [
+   "Transient"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 74,
+  "name": "RnR Transient Home",
+  "category": "Hotels",
+  "latitude": 13.955925,
+  "longitude": 121.158965,
+  "description": "Gated transient home within walking distance of SM City Lipa and the grand terminal.",
+  "address": "12 Balintawak Road, Lipa City, Batangas",
+  "contact": "+63 917 504 3976",
+  "features": [
+   "Gated",
+   "CCTV"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 75,
+  "name": "MC Transient House",
+  "category": "Hotels",
+  "latitude": 13.898358,
+  "longitude": 121.143277,
+  "description": "Guest house in a subdivision; only two reviews so far.",
+  "address": "Pine Grove, Plantacion Meridienne, Sampaguita, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Guest house"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 76,
+  "name": "Log House Farm Resort",
+  "category": "Hotels",
+  "latitude": 13.985809,
+  "longitude": 121.141229,
+  "description": "Cabin-style farm resort with pools, free barbecue facilities and easy STAR Tollway access.",
+  "address": "Leviste Hwy, Lipa City, Lipa City, Batangas",
+  "contact": "+63 977 260 1854",
+  "features": [
+   "Pools",
+   "Cabins",
+   "Parking"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 77,
+  "name": "Penafrancia Events Place",
+  "category": "Tourist Spots",
+  "latitude": 13.970637,
+  "longitude": 121.203313,
+  "description": "Garden venue with a pool and views of Mt. Malarayat; closed Mondays.",
+  "address": "Ten. P. Lopez, Talisay, Lipa City, Batangas",
+  "contact": "+63 997 235 4361",
+  "features": [
+   "Venue",
+   "Pool",
+   "Garden"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 78,
+  "name": "Palazzo de Jardin Events Place",
+  "category": "Tourist Spots",
+  "latitude": 13.955157,
+  "longitude": 121.132925,
+  "description": "Events venue with parking, used for simple and large celebrations.",
+  "address": "MP Casanova St, Tambo, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Venue",
+   "Parking"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 79,
+  "name": "Claudia's Garden",
+  "category": "Tourist Spots",
+  "latitude": 13.94404,
+  "longitude": 121.167461,
+  "description": "Garden event venue in the city; open weekdays only.",
+  "address": "5 H. La Torre St, Lipa City, Batangas",
+  "contact": "+63 927 997 8010",
+  "features": [
+   "Venue",
+   "Garden"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 80,
+  "name": "Memorial Park (Phil.-Japanese Landmark)",
+  "category": "Tourist Spots",
+  "latitude": 13.982367,
+  "longitude": 121.203245,
+  "description": "Memorial to civilians killed in March 1945, built by Japanese volunteers. A solemn history stop.",
+  "address": "Purok 4, Lipa City, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "WWII history",
+   "Memorial"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 81,
+  "name": "Plaza Independencia",
+  "category": "Tourist Spots",
+  "latitude": 13.941374,
+  "longitude": 121.164243,
+  "description": "Renovated plaza next to the cathedral with an LED board, vintage lamp posts and public events.",
+  "address": "L. Katigbak St, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Plaza",
+   "Free"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 82,
+  "name": "Museo ng Katipunan",
+  "category": "Tourist Spots",
+  "latitude": 13.942445,
+  "longitude": 121.097147,
+  "description": "Small museum holding an authenticated Katipunan flag. Reviewers say the map pin is about a block off, so ask locally.",
+  "address": "Lipa City (W3VW+2MR), Lipa City, Batangas",
+  "contact": "+63 995 224 1121",
+  "features": [
+   "Museum",
+   "Katipunan"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 83,
+  "name": "Prestige Wellness and Spa",
+  "category": "Tourist Spots",
+  "latitude": 13.927846,
+  "longitude": 121.169751,
+  "description": "Spa with massage, facials and nails; open 10AM-10PM.",
+  "address": "DLD Town Center, Antipolo del Norte, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Spa",
+   "Massage"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 84,
+  "name": "Bioessence Serenity Spa",
+  "category": "Tourist Spots",
+  "latitude": 13.93902,
+  "longitude": 121.163376,
+  "description": "Long-running city spa and massage place, open 9AM-8PM.",
+  "address": "128 P. Torres St, Lipa City, Batangas",
+  "contact": "+63 920 647 9885",
+  "features": [
+   "Spa",
+   "Massage"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 85,
+  "name": "Chill Top Lipa",
+  "category": "Restaurants",
+  "latitude": 13.947497,
+  "longitude": 121.155877,
+  "description": "Videoke bar and restaurant with an elevator, popular for group celebrations; reviewers note it is basic and food is average.",
+  "address": "Pres. Laurel Hwy, Balintawak, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Videoke",
+   "Bar"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 86,
+  "name": "Tricia's Resto Bar Lipa",
+  "category": "Restaurants",
+  "latitude": 13.947112,
+  "longitude": 121.156679,
+  "description": "Open-air resto bar with DJ and live music. Mixed reviews on food and service speed.",
+  "address": "Dayton, Ayala Hwy, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Bar",
+   "Live music"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 87,
+  "name": "Padi's Lipa",
+  "category": "Restaurants",
+  "latitude": 13.947494,
+  "longitude": 121.15588,
+  "description": "Late-night videoke bar open evenings until 4-5AM, with drink towers and food sets.",
+  "address": "JP Laurel Hwy, Balintawak Bridge, Lipa City, Batangas",
+  "contact": "+63 999 992 6234",
+  "features": [
+   "Videoke",
+   "Late night"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 88,
+  "name": "Casa Maestro Restaurant & Bar",
+  "category": "Restaurants",
+  "latitude": 13.950053,
+  "longitude": 121.15852,
+  "description": "Spacious resto bar with live bands on weekends and safe parking; an entrance fee may apply after 6PM.",
+  "address": "Ayala Hwy, Lipa City, Lipa City, Batangas",
+  "contact": "+63 915 061 2167",
+  "features": [
+   "Live music",
+   "Parking"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 89,
+  "name": "Hangout Resto Lipa",
+  "category": "Restaurants",
+  "latitude": 13.944646,
+  "longitude": 121.153823,
+  "description": "Resto with a live band on some nights. Closed Mondays.",
+  "address": "Astral Hub Station, Ayala Hwy, Lipa City, Batangas",
+  "contact": "+63 915 916 1262",
+  "features": [
+   "Live music"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 90,
+  "name": "Crafted Confections Bakery + Cafe",
+  "category": "Restaurants",
+  "latitude": 13.957215,
+  "longitude": 121.171667,
+  "description": "Cozy bakery cafe known for baby back ribs and pasta; reviews on seasoning are mixed.",
+  "address": "Sabang-Marawoy Extension Rd, Lipa City, Batangas",
+  "contact": "+63 954 985 9869",
+  "features": [
+   "Bakery",
+   "Cafe",
+   "Ribs"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 91,
+  "name": "Simbuyo Kitchen + Coffee",
+  "category": "Restaurants",
+  "latitude": 13.972412,
+  "longitude": 121.174329,
+  "description": "New cafe with matcha, sisig pasta and ube tres leches.",
+  "address": "Golden Path Property, Dagatan, Lipa City, Batangas",
+  "contact": "+63 917 504 9700",
+  "features": [
+   "Matcha",
+   "Cafe"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 92,
+  "name": "Loghouse Cafe",
+  "category": "Restaurants",
+  "latitude": 13.949839,
+  "longitude": 121.167287,
+  "description": "Log-cabin style cafe popular for photos, with free parking, Wi-Fi and a non-smoking policy.",
+  "address": "Receno Compound, Gen. Luna St, Sabang, Lipa City, Batangas",
+  "contact": "+63 43 333 7839",
+  "features": [
+   "Cafe",
+   "Instagrammable",
+   "Wi-Fi"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 93,
+  "name": "Punto Cafe & Bento",
+  "category": "Restaurants",
+  "latitude": 13.970647,
+  "longitude": 121.162981,
+  "description": "Small budget cafe serving Japanese bento and sushi.",
+  "address": "Levitown, Marauoy, Lipa City, Batangas",
+  "contact": "+63 935 047 6118",
+  "features": [
+   "Cafe",
+   "Japanese",
+   "Budget"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 94,
+  "name": "Spice Bar and Bistro",
+  "category": "Restaurants",
+  "latitude": 13.950344,
+  "longitude": 121.160204,
+  "description": "Busy casual bistro known for baby back ribs and truffle pasta; expect waits.",
+  "address": "Lipa City (X526+43P), Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Bistro",
+   "Ribs"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 95,
+  "name": "Panlasang Ala Eh Restobar",
+  "category": "Restaurants",
+  "latitude": 13.941792,
+  "longitude": 121.138652,
+  "description": "Small restobar reported open 24 hours, serving silog meals. Few reviews.",
+  "address": "Season's Building, Pres. Laurel Hwy, Tambo, Lipa City, Batangas",
+  "contact": "+63 969 326 3143",
+  "features": [
+   "Filipino",
+   "24 hours"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 96,
+  "name": "Ramen & Co. Tambo",
+  "category": "Restaurants",
+  "latitude": 13.947936,
+  "longitude": 121.133896,
+  "description": "Well-rated Japanese restaurant for ramen and katsudon with air-conditioned seating.",
+  "address": "MP Casanova St, Tambo, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Japanese",
+   "Ramen"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 97,
+  "name": "Barista Espresso Bar",
+  "category": "Restaurants",
+  "latitude": 13.946255,
+  "longitude": 121.15545,
+  "description": "Small espresso bar down a narrow alley with own coffee blend, burritos and waffles.",
+  "address": "Ayala Hwy, Lipa City, Lipa City, Batangas",
+  "contact": "+63 954 468 9463",
+  "features": [
+   "Coffee",
+   "Brunch"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 98,
+  "name": "Bet' Oven",
+  "category": "Restaurants",
+  "latitude": 13.949657,
+  "longitude": 121.157411,
+  "description": "Cozy restaurant famous for its chocolate champorado with danggit, steak and pizza.",
+  "address": "Ayala Hwy, Lipa City, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Champorado",
+   "Steak"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 99,
+  "name": "But First, Coffee (Lipa)",
+  "category": "Restaurants",
+  "latitude": 13.942191,
+  "longitude": 121.153045,
+  "description": "Coffee shop with outdoor seating at the back of the Big Ben complex; oat milk available.",
+  "address": "Big Ben Complex, Ayala Hwy, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Coffee"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 100,
+  "name": "Swing Coffee Bar",
+  "category": "Restaurants",
+  "latitude": 13.950277,
+  "longitude": 121.158889,
+  "description": "Cozy second-floor coffee bar with pasta, pizza and fries. Coffee sweetness is mixed in reviews.",
+  "address": "Trinity Business Center, Ayala Hwy, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Coffee",
+   "Pizza"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 101,
+  "name": "Itaewon St. Cafe (JPL Hwy)",
+  "category": "Restaurants",
+  "latitude": 13.941183,
+  "longitude": 121.147408,
+  "description": "Korean-style cafe with baked goods and matcha, open 8AM-10PM; popular with students.",
+  "address": "Cera Building, Pres. Laurel Hwy, Lipa City, Batangas",
+  "contact": "+63 917 172 8133",
+  "features": [
+   "Cafe",
+   "Study spot"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 102,
+  "name": "Fat Grill Restaurant",
+  "category": "Restaurants",
+  "latitude": 13.945689,
+  "longitude": 121.155132,
+  "description": "Spacious grill with crispy pata, crispy dinuguan and ribs; limited parking.",
+  "address": "Ayala Hwy, Lipa City, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Filipino",
+   "Grill"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 103,
+  "name": "Zillion Pavilion Family & Business Hotel",
+  "category": "Hotels",
+  "latitude": 13.954516,
+  "longitude": 121.160175,
+  "description": "Budget hotel behind SM City Lipa near the bus terminal, with big parking and free coffee.",
+  "address": "A. Tanco Dr, behind SM City Lipa, Lipa City, Batangas",
+  "contact": "+63 43 756 1588",
+  "features": [
+   "Budget",
+   "Parking"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 104,
+  "name": "Amalfi718 Hotel",
+  "category": "Hotels",
+  "latitude": 13.953589,
+  "longitude": 121.164488,
+  "description": "Drive-in style hotel across from SM Lipa with buffet breakfast and parking.",
+  "address": "84 Pres. Laurel Hwy, Lipa City, Batangas",
+  "contact": "+63 960 202 1748",
+  "features": [
+   "Breakfast",
+   "Parking"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 105,
+  "name": "Solano Hotel",
+  "category": "Hotels",
+  "latitude": 13.951688,
+  "longitude": 121.165892,
+  "description": "Hotel with spacious rooms, kitchenettes, a courtyard, breakfast and in-house massage.",
+  "address": "Gen. Luna St, Lipa City, Batangas",
+  "contact": "+63 923 082 2133",
+  "features": [
+   "Breakfast",
+   "Massage"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 106,
+  "name": "FarmEscape Lipa",
+  "category": "Hotels",
+  "latitude": 13.947043,
+  "longitude": 121.111902,
+  "description": "Quiet farm resort with two pools, cooking facilities and room for events.",
+  "address": "F. Medrano St, Bagong Pook, Lipa City, Batangas",
+  "contact": "+63 917 542 7657",
+  "features": [
+   "Pool",
+   "Events"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 107,
+  "name": "Amicasa Farm Estate",
+  "category": "Hotels",
+  "latitude": 13.943358,
+  "longitude": 121.197139,
+  "description": "Large farm stay with cooking and grilling setup. Reviewers suggest bringing groceries.",
+  "address": "Tangob, Purok 6, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Farm stay",
+   "Grill"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 108,
+  "name": "Kahariam Farms",
+  "category": "Hotels",
+  "latitude": 13.870698,
+  "longitude": 121.142013,
+  "description": "Organic farm for tours and team building, with rooms, a pool and function rooms. Closed Sundays.",
+  "address": "Brgy. Adya, Lipa-Ibaan Rd, Lipa City, Batangas",
+  "contact": "+63 918 830 0090",
+  "features": [
+   "Farm tour",
+   "Pool"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 109,
+  "name": "Farm Stay at Harvest Fields",
+  "category": "Hotels",
+  "latitude": 13.986098,
+  "longitude": 121.203158,
+  "description": "Small farm stay; few reviews so far.",
+  "address": "Brgy. Lumbang, Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Farm stay"
+  ],
+  "verified": true,
+  "source": "places"
+ },
+ {
+  "id": 110,
+  "name": "Tagbakin Lakeview",
+  "category": "Tourist Spots",
+  "latitude": 13.962332,
+  "longitude": 121.07626,
+  "description": "Quiet Taal Lake viewpoint with a small coffee shop and nipa huts; steep road. Small eco fee reported.",
+  "address": "Lipa City (X36G+WFX), Lipa City, Batangas",
+  "contact": "",
+  "features": [
+   "Lake view",
+   "Sunset"
+  ],
+  "verified": true,
+  "source": "places"
+ }
+]
